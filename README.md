@@ -94,7 +94,7 @@ Building this game would breakdown as follows:
 	- The response object can then be used to draw the data
  2. Write a function to handle drawing the cards that come back from the server (*remember: if an enemy card is not marked 'revealed' you should draw the back of a card not the front*)
  3. The player will click their card and one of the enemy cards then select 'play'
- 	- This should submit the put request to the server which will return a new game object in response, then redraw
+ 	- This should submit the put request to the server which will return a message in response, you will need to get the game again
  4. Win a card is dead, it is added to the 'dead' array on the object, while its not required, maybe render this 'discard pile' somewhere on the page
  	- You will most likely draw only the first index of the dead array
  5. When the game is over, draw the result to the screen and provide the option to start over.
