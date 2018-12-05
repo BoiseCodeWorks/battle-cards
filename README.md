@@ -43,7 +43,7 @@ The response will be a new game object
 {
 	"id": "cdff37e5-a5e4-4596-83cd-a286983aa503", // The Game Id
 	"set": 2, // valid card set themes 1-4 
-	"opponet": 1, //same as the player object
+	"opponet": {}, //same as the player object
 	"player": { 
 			"id": "a97decee-de95-466b-be8c-610852bb06c5", // Your Player Id
 			"name": "Jake", //The players Name
