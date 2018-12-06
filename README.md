@@ -8,18 +8,18 @@ To comply with these settings you will need to follow a set of specific instruct
 
 To get started you need to know about three important routes or API endpoints.
 
-- The baseURL: https://battlecardz.herokuapp.com/cards
-	- A Node Server is waiting for requests at /cards. You will need to use the HTTP methods with the above url to build the game.
+- The baseURL: https://battlecardz.herokuapp.com/api/games
+	- A Node Server is waiting for requests at /api/games. You will need to use the HTTP methods with the above url to build the game.
 
-- GET: /cards
+- GET: /games
 	- This will give you a list of all of the card games created. Details about the game object are below
-- POST: /cards
+- POST: /games
 	- This is how you create a new game... A Game Config Object is optional see below
-- GET: /cards/:gameId
+- GET: /games/:gameId
 	- Gets the game at this Id
-- PUT: /cards/:gameId
+- PUT: /games/:gameId
 	- Edits the game state. Only accepts an attack Object... See Below
-- DELETE: /cards/:gameId
+- DELETE: /games/:gameId
 	- Removes a game by its Id
 	
 
